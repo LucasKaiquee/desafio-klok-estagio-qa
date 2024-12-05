@@ -20,12 +20,12 @@ O objetivo deste desafio é automatizar os seguintes passos:
 
 ## Estrutura do Projeto
 
-A arquitetura do projeto segue um padrão com as seguintes pastas e classes principais:
+A arquitetura do projeto segue um padrão com as seguintes pastas:
 
-- **pages/**: Contém a página de interação com o site da Magazine Luiza (como a página de busca).
-- **utils/**: Contém o utilitário geral de configuração do WebDriver para o Selenium.
-- **test/**: Contém os testes propriamente ditos, organizados de acordo com a abordagem de teste do JUnit.
-- **drive/**: Contém o  WebDriver do Selenium para executar as ações no Google Chrome.
+- **pages**: Contém a página de interação com o site da Magazine Luiza (como a página de busca).
+- **utils**: Contém o utilitário geral de configuração do WebDriver para o Selenium.
+- **test**: Contém os testes propriamente ditos, organizados de acordo com a abordagem de teste do JUnit.
+- **drive**: Contém o  WebDriver do Selenium para executar as ações no Google Chrome.
 
 ## Cenários de Testes
 
@@ -75,6 +75,9 @@ Os seguintes cenários de testes foram implementados:
    ```bash
    cd desafio-klok-estagio-qa
    ```
+
+   **execute:**:
+   
    ```bash
    mvn clean test
    ```
