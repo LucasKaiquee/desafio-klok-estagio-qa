@@ -89,5 +89,9 @@ Uma seguradora, "SeguraTudo", possui duas tabelas em seu banco de dados: uma tab
 
 **O código da consulta está presente no arquivo [SeguraTudo-Consulta.txt](./SeguraTudo-Consulta.txt) na raiz do projeto**
 
+Este código SQL recupera, para cada cliente que tem uma apólice ativa, o nome do cliente, o número da apólice, o tipo do seguro e o valor do prêmio a ser pago. A consulta combina dados de duas tabelas (clientes e apólices), filtrando para que somente as apólices com status 'ativa' sejam exibidas.
+
+
+
 
 
