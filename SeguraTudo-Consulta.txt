@@ -1,0 +1,11 @@
+SELECT 
+    clientes.nome AS cliente,
+    apólices.numero_apolice,
+    apólices.tipo_seguro,
+    apólices.valor_premio
+FROM 
+    clientes
+INNER JOIN 
+    apólices ON clientes.id_cliente = apólices.id_cliente
+WHERE 
+    apólices.status = 'ativa';
